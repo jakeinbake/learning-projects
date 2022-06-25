@@ -1,3 +1,4 @@
+# Test Resolve Issue #1
 # Shopping List That Calculates Total Cost of your order and then outputs it cleanly
 import string
 print("Hello! Lets put together your shopping list!")
