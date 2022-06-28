@@ -5,6 +5,8 @@ import random as ran
 random_number = ran.randint(1,10)
 # Start guess as false to force into loop
 user_guess_correct = False
+# Define variable used later. 
+user_guess = None
 # Initialize the game as 'on', we'll use this to keep the game 'live' 
 game_live = True
 while game_live == True:
@@ -13,7 +15,7 @@ while game_live == True:
         while user_guess_correct != True:
             print("Wonderful! We're playing a number guessing game!\nI've just picked out a random number between 1 & 10, go ahead and guess what it is!")
             #print(random_number) -  used in testing
-            user_guess = False
+            
             while user_guess != random_number:
                 user_guess = int(input("Place your guess here: "))
                 if user_guess == random_number:
