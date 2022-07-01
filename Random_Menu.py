@@ -1,6 +1,5 @@
 # Random_Menu
 import time
-#TESTESTESTTEST
 run_menu = True
 menu_options = [1,2,3]
 menu_options[0] = "1. Current Time"
