@@ -14,8 +14,6 @@ while game_live == True:
     if should_play == ('y' or 'yes'):
         while user_guess_correct != True:
             print("Wonderful! We're playing a number guessing game!\nI've just picked out a random number between 1 & 10, go ahead and guess what it is!")
-            #print(random_number) -  used in testing
-            
             while user_guess != random_number:
                 user_guess = int(input("Place your guess here: "))
                 if user_guess == random_number:
