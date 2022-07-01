@@ -1,4 +1,4 @@
-# Random_Menu
+# Random_Menu Program
 import time
 run_menu = True
 menu_options = [1,2,3]
